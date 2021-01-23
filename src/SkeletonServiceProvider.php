@@ -2,7 +2,6 @@
 
 namespace Spatie\Skeleton;
 
-use Illuminate\Support\ServiceProvider;
 use Spatie\Skeleton\Commands\SkeletonCommand;
 
 class SkeletonServiceProvider extends PackageServiceProvider
