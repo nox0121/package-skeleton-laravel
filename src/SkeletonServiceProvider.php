@@ -12,8 +12,8 @@ class SkeletonServiceProvider extends PackageServiceProvider
         $package
             ->name('skeleton')
             ->hasConfigFile()
-            ->hasMigration('create_skeleton_table')
             ->hasViews()
+            ->hasMigration('create_skeleton_table')
             ->hasCommand(SkeletonCommand::class);
     }
 }
