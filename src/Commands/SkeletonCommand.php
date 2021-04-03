@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Nox0121\Skeleton\Commands;
 
 use Illuminate\Console\Command;
 

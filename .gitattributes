@@ -12,3 +12,4 @@
 /.github            export-ignore
 /psalm.xml          export-ignore
 
+*.php text eol=lf

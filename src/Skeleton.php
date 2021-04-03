@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton;
+namespace Nox0121\Skeleton;
 
 class Skeleton
 {

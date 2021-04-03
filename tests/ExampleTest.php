@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Nox0121\Skeleton\Tests;
 
 class ExampleTest extends TestCase
 {

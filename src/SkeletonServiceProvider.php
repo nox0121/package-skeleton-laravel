@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Skeleton;
+namespace Nox0121\Skeleton;
 
 use Illuminate\Support\ServiceProvider;
-use Spatie\Skeleton\Commands\SkeletonCommand;
+use Nox0121\Skeleton\Commands\SkeletonCommand;
 
 class SkeletonServiceProvider extends ServiceProvider
 {
@@ -19,7 +19,7 @@ class SkeletonServiceProvider extends ServiceProvider
             ], 'views');
 
             $migrationFileName = 'create_skeleton_table.php';
-            if (! $this->migrationFileExists($migrationFileName)) {
+            if (!$this->migrationFileExists($migrationFileName)) {
                 $this->publishes([
                     __DIR__ . "/../database/migrations/{$migrationFileName}.stub" => database_path('migrations/' . date('Y_m_d_His', time()) . '_' . $migrationFileName),
                 ], 'migrations');
