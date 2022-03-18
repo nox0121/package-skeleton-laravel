@@ -2,8 +2,8 @@
 
 namespace Nox0121\Skeleton\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Nox0121\Skeleton\SkeletonServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
